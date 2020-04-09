@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-Author : Me <me@foo.com>
-Date   : today
-Purpose: Rock the Casbah
+Author : George Studenko <george@georgestudenko.com>
+Date   : Add date
+Purpose: Describe this
 """
 
 import argparse
@@ -13,7 +13,7 @@ def get_args():
     """Get command-line arguments"""
 
     parser = argparse.ArgumentParser(
-        description='Rock the Casbah',
+        description='This program purpose is to...',
         formatter_class=argparse.ArgumentDefaultsHelpFormatter)
 
     parser.add_argument('positional',
